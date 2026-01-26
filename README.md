@@ -45,11 +45,14 @@ pip install -r requirements.txt
 ```
 ### How to run
 From the repo folder:
+
 `jupyter notebook --ip=0.0.0.0 --port=8888`
 
 The terminal will print a URL such as:
+
 `http://127.0.0.1:8888/tree?token=...`
 
 Copy the URL into your browser, then:
 Open a notebook (.ipynb)
 Run: Kernel > Restart & Run All
+
