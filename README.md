@@ -21,12 +21,19 @@ Validate performance by sweeping/adjusting key parameters (e.g., Eb/N0 (SNR), nu
 
 ## Installation
 Tested environment:
+
 OS: Ubuntu 22.04.5 LTS
+
 Python: 3.10.12
+
 TensorFlow: 2.19.1 (CUDA build)
+
 Sionna: 1.2.1
+
 NumPy: 1.26.4
+
 Matplotlib: 3.10.8
+
 Jupyter Server: 2.17.0
 
 > **CPU-only note:** If no GPU is available, notebooks can still run on **CPU**, but simulations will be **slower**.
@@ -58,6 +65,7 @@ Run: Kernel > Restart & Run All
 - `5G_NR_PUSCH.ipynb`: Baseline 5G NR PUSCH simulation and BER/BLER results.
 - `snr_sweep.ipynb`: BER/BLER vs Eb/N0 (SNR) sweep for performance evaluation.
 - `antenna_speed.ipynb`: BER/BLER comparison under parameter changes (e.g., mobility speed / antenna settings).
+
 
 
 
