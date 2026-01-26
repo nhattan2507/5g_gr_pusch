@@ -19,7 +19,7 @@ This repository is prepared so that it can be cloned and reproduced.
 
 ---
 
-## Môi trường đã kiểm chứng chạy được
+## Môi trường 
 - OS: Ubuntu 22.04.5 LTS
 - Python: 3.10.12
 - TensorFlow: 2.19.1 (GPU enabled)
@@ -36,3 +36,4 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -U pip
 pip install -r requirements.txt
+
