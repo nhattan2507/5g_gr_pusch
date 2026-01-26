@@ -13,13 +13,9 @@ This repository reproduces the **5G NR PUSCH** tutorial using **Sionna** (Tensor
 
 ## Repository contents
 - `5G_NR_PUSCH.ipynb`  
-  Baseline PUSCH tutorial run (reference configuration), including BER/BLER simulations.
 - `snr_sweep.ipynb`  
-  Eb/N0 (or SNR) sweep and comparison across different settings (e.g., layers).
 - `antenna_speed.ipynb`  
-  Parameter variation (e.g., mobility speed / antenna-related settings depending on the notebook configuration).
 - `requirements.txt`  
-  Python dependencies (pinned to the verified working versions).
 
 ---
 
@@ -37,7 +33,8 @@ Tested environment:
 
 Install with pip (recommended: use a virtual environment):
 ```bash
-
+git clone https://github.com/nhattan2507/5g_gr_pusch.git
+cd 5g_gr_pusch
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -U pip
@@ -55,4 +52,11 @@ The terminal will print a URL such as:
 Copy the URL into your browser, then:
 Open a notebook (.ipynb)
 Run: Kernel > Restart & Run All
+
+### Main results 
+```md
+- `5G_NR_PUSCH.ipynb`: Baseline 5G NR PUSCH simulation and BER/BLER results.
+- `snr_sweep.ipynb`: BER/BLER vs Eb/N0 (SNR) sweep for performance evaluation.
+- `antenna_speed.ipynb`: BER/BLER comparison under parameter changes (e.g., mobility speed / antenna settings).
+
 
